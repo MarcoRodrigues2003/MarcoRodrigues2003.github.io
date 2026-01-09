@@ -491,9 +491,8 @@ a{
   box-shadow: 0 16px 40px rgba(0,0,0,0.35);
 }
 
-/* Fix: prevent long tech pills from blowing up the card layout */
 .cardTop > div:first-child{
-  min-width: 0; /* allows text to shrink inside flex */
+  min-width: 0;
 }
 
 .cardMeta{
@@ -507,3 +506,23 @@ a{
   white-space: nowrap;
 }
 
+.modal .badge{
+  color: #1f1f1f;
+  border: 1px solid rgba(0,0,0,0.18);
+  background: rgba(0,0,0,0.04);
+}
+
+.modal .btn{
+  color: #1f1f1f;
+  border: 1px solid rgba(0,0,0,0.22);
+  background: rgba(0,0,0,0.04);
+}
+
+.modal .btn:hover{
+  background: rgba(0,0,0,0.08);
+  border-color: rgba(0,0,0,0.32);
+}
+
+.modal .muted{
+  color: rgba(0,0,0,0.60);
+}
