@@ -12,7 +12,7 @@ export const projects = [
     id: "toss-the-minder",
     title: "Toss The Minder",
     platform: "Mobile",
-    tech: ["Unity", "C#", "Mobile", "Git"],
+    tech: ["Unity", "C#", "Mobile"],
     short:
       "Party game estilo ‘hot potato’ com deteção de movimento e minijogos.",
     thumb: "media/toss-the-minder.jpg",
@@ -39,7 +39,7 @@ export const projects = [
     id: "aliveworld",
     title: "AliveWorld",
     platform: "PC",
-    tech: ["Unity", "C#", "Git"],
+    tech: ["Unity", "C#"],
     short:
       "Projeto em Unity focado em simulação com agentes, jobs e comportamentos de AI.",
     thumb: "media/aliveworld.png",
@@ -65,7 +65,7 @@ export const projects = [
     id: "arcityplayground",
     title: "ARCityPlayground",
     platform: "Mobile (AR)",
-    tech: ["Unity", "C#", "AR"],
+    tech: ["Unity", "C#", "AR", "MediaPipe", "Computer Vision", "Hand Tracking"],
     short:
       "Projeto em Unity focado em protótipos de Computer Vision e interação com um ‘city playground’.",
     thumb: "media/arcityplayground.png",
