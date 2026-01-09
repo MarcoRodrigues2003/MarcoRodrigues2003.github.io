@@ -491,4 +491,19 @@ a{
   box-shadow: 0 16px 40px rgba(0,0,0,0.35);
 }
 
+/* Fix: prevent long tech pills from blowing up the card layout */
+.cardTop > div:first-child{
+  min-width: 0; /* allows text to shrink inside flex */
+}
+
+.cardMeta{
+  max-width: 45%;
+}
+
+.mini{
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
