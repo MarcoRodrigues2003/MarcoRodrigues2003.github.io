@@ -42,7 +42,7 @@ export const projects = [
     tech: ["Unity", "C#"],
     short:
       "Projeto em Unity focado em simulação com agentes, jobs e comportamentos de AI.",
-    thumb: "media/aliveworld.png",
+    thumb: "media/AliveWorldIcon.png",
 
     whatIs:
       "AliveWorld é um projeto em Unity focado em simulação: agentes com tarefas, prioridades e comportamento emergente (estilo colony sim).",
