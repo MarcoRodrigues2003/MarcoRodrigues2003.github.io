@@ -60,4 +60,30 @@ export const projects = [
 
     media: [],
   },
+
+  {
+    id: "arcityplayground",
+    title: "ARCityPlayground",
+    platform: "Mobile (AR)",
+    tech: ["Unity", "C#", "AR"],
+    short:
+      "Projeto em Unity focado em protótipos de Computer Vision e interação com um ‘city playground’.",
+    thumb: "media/arcityplayground.png",
+
+    whatIs:
+      "ARCityPlayground é um projeto em Unity onde o jogador usa a sua mão para destruir uma cidade em realidade aumentada",
+
+    workedOn: [
+    "Implementação de geração procedural para criar uma cidade aleatória (regras de layout, distribuição e spawn)",
+  ],
+
+    links: {
+      github: "https://github.com/MarcoRodrigues2003/ARCityPlayground",
+      itch: "",
+      video: "",
+  },
+
+  media: [],
+},
+
 ];
