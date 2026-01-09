@@ -13,21 +13,20 @@ export const projects = [
     title: "Toss The Minder",
     platform: "Mobile",
     tech: ["Unity", "C#", "Mobile"],
-    short:
-      "Party game estilo ‘hot potato’ com deteção de movimento e minijogos.",
+    short: "Hot-potato style party game with motion detection and minigames.",
     thumb: "media/toss-the-minder.jpg",
 
     whatIs:
-      "Toss The Minder é um party game com vários mini-jogos onde os jogadores passam o peluche entre si enquanto a música toca.",
+      "Toss The Minder is a party game with multiple minigames where players pass the plush around while music plays.",
 
     workedOn: [
-      "Deteção de movimento (aceleração/giroscópio) e proteção contra falsos positivos",
-      "Loop de ronda, timers e condições de vitória/derrota",
-      "UI/feedback (cores, SFX, eventos de fim de jogo)",
+      "Motion detection (accelerometer/gyroscope) with safeguards against false positives",
+      "Round loop, timers, and win/lose conditions",
+      "UI/feedback (colors, SFX, end-of-game events)",
     ],
 
     links: {
-      github: "", // ainda não tens repo
+      github: "", // no repo yet
       itch: "",
       video: "",
     },
@@ -40,16 +39,15 @@ export const projects = [
     title: "AliveWorld",
     platform: "PC",
     tech: ["Unity", "C#"],
-    short:
-      "Projeto em Unity focado em simulação com agentes, jobs e comportamentos de AI.",
+    short: "Unity simulation project with agents, a task/job system, and AI behaviors.",
     thumb: "media/AliveWorldIcon.png",
 
     whatIs:
-      "AliveWorld é um projeto em Unity focado em simulação: agentes com tarefas, prioridades e comportamento emergente (estilo colony sim).",
+      "AliveWorld is a Unity simulation project focused on agents with tasks, priorities, and emergent behavior (colony-sim style).",
 
     workedOn: [
-      "Sistema de jobs/tickets e execução de tarefas por agentes",
-      "Estrutura modular para AI / tomada de decisão",
+      "Task/job system (tickets/requests) and agent execution flow",
+      "Modular AI / decision-making structure",
     ],
 
     links: {
@@ -67,23 +65,24 @@ export const projects = [
     platform: "Mobile (AR)",
     tech: ["Unity", "C#", "AR", "MediaPipe", "Computer Vision", "Hand Tracking"],
     short:
-      "Projeto em Unity focado em protótipos de Computer Vision e interação com um ‘city playground’.",
+      "Unity project focused on computer vision prototypes and interactive AR gameplay.",
     thumb: "media/arcityplayground.png",
 
     whatIs:
-      "ARCityPlayground é um projeto em Unity onde o jogador usa a sua mão para destruir uma cidade em realidade aumentada",
+      "ARCityPlayground is a Unity project where the player uses their hand to destroy a city in augmented reality.",
 
     workedOn: [
-    "Implementação de geração procedural para criar uma cidade aleatória (regras de layout, distribuição e spawn)",
-  ],
+      "Procedural generation system to create a randomized city (layout rules, distribution, spawning)",
+    ],
 
     links: {
       github: "https://github.com/MarcoRodrigues2003/ARCityPlayground",
       itch: "",
       video: "",
-  },
+    },
 
-  media: [],
-},
+    media: [],
+  },
+];
 
 ];
