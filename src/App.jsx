@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
 import { profile, projects } from "./data";
-import profileImg from "./assets/profile.jpg";
 
 function getLinkLabel(url) {
   try {
@@ -285,9 +284,12 @@ export default function App() {
                   <span className="badge">Git</span>
                 </div>
               </div>
-
               <div className="avatarWrap">
-                <img className="avatar" src={profileImg} alt="Foto de perfil" />
+                <img
+                  className="avatar"
+                  src="https://github.com/MarcoRodrigues2003.png"
+                  alt="Foto de perfil"
+                />
               </div>
             </div>
           </div>
