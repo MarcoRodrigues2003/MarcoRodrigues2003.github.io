@@ -334,7 +334,14 @@ export default function App() {
 
                       <div className="cardMeta">
                         <div className="mini">{p.platform}</div>
-                        <div className="mini">{p.tech.join(" • ")}</div>
+                        {(() => {
+                          const techLine = p.tech.join(" • ");
+                          return (
+                            <div className="mini" title={techLine}>
+                              {techLine}
+                            </div>
+                          );
+                        })()}
                       </div>
                     </div>
 
