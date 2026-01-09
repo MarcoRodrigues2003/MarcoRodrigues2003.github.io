@@ -1,78 +1,63 @@
 export const profile = {
-  name: "Gabriel Pereira",
-  title: "Trabalhador-Estudante | Game Developer",
+  name: "Marco Rodrigues",
+  title: "Digital Game Development Student | Game Developer",
   tagline:
-    "Sou um game developer focado em Unity e C#, com interesse em gameplay, sistemas e experiências interativas. Gosto de aprender através de projetos práticos e melhorar continuamente o meu código e design.",
-  github: "https://github.com/ShadowBoid7",
-  email: "gabriel123steam@hotmail.com",
+    "Digital Game Development student based in Portugal. Working mainly in Unity (C#) on gameplay systems, AI behaviors, and simulation-style prototypes.",
+  github: "https://github.com/MarcoRodrigues2003",
+  email: "rodriguesmarco031@gmail.com",
 };
 
 export const projects = [
   {
-    id: "flypidgeyfly",
-    title: "FlyPidgeyFly",
-    platform: "PC",
-    tech: ["Unity", "C#", "Git"],
-    short: "Jogo desenvolvido em Unity.",
-    thumb: "media/flypidgeyfly.jpg",
+    id: "toss-the-minder",
+    title: "Toss The Minder",
+    platform: "Mobile",
+    tech: ["Unity", "C#", "Mobile", "Git"],
+    short:
+      "Party game estilo ‘hot potato’ com deteção de movimento e minijogos.",
+    thumb: "media/toss-the-minder.jpg",
+
     whatIs:
-    "FlyPidgeyFly é um jogo arcade onde o jogador controla uma personagem em voo, desviando-se de obstáculos e tentando alcançar a maior pontuação possível.",
+      "Toss The Minder é um jogo party onde os jogadores passam o peluche/telemóvel entre si enquanto a música toca. Quando a música pára, quem estiver com o peluche é eliminado.",
 
-  workedOn: [
-    "Implementação do sistema de movimento e colisões",
-    "Sistema de pontuação e progressão",
-    "UI / HUD do jogo",
-    "Correção de bugs e melhorias de jogabilidade",
-  ],
-
-  links: {
-    github: "https://github.com/ShadowBoid7/FlyPidgeyFly",
-  },
-    media: [
-      { type: "video", src: "media/videos/flypidgeyfly.mp4" },
-    ],
-  },
-
-  {
-    id: "puzzleblock",
-    title: "PuzzleBlock",
-    platform: "PC",
-    tech: ["Unity", "C#", "Git"],
-    short: "Puzzle game em Unity.",
-    thumb: "media/puzzleblock.jpg",
-    whatIs:
-    "PuzzleBlock é um jogo de puzzles onde o jogador resolve desafios baseados em lógica e posicionamento de blocos.",
-
-  workedOn: [
-    "Sistema de puzzles e regras",
-    "Lógica de interação do jogador",
-    "Feedback visual e UX",
-    "Ajustes e balanceamento",
-  ],
-
-  links: {
-    github: "https://github.com/ShadowBoid7/PuzzleBlock",
-  },
-    media: [
-      { type: "video", src: "media/videos/puzzleblock.mp4" },
-    ],
-  },
-
-  {
-    id: "descobertasinterativas",
-    title: "DescobertasInterativas",
-    platform: "PC",
-    tech: ["Unity", "C#", "Git"],
-    short: "Projeto interativo em Unity.",
-    thumb: "media/descobertasinterativas.jpg",
-    whatIs:
-      "DescobertasInterativas é um projeto interativo onde ... (coloca aqui 1-2 frases).",
     workedOn: [
-      "Estrutura do projeto e lógica",
-      "UI / navegação",
-      "Integração e organização de conteúdo",
+      "Deteção de movimento (aceleração/giroscópio) e proteção contra falsos positivos",
+      "Loop de ronda, timers e condições de vitória/derrota",
+      "UI/feedback (cores, SFX, eventos de fim de jogo)",
     ],
-    links: { github: "", itch: "", video: "" },
+
+    links: {
+      github: "", // ainda não tens repo
+      itch: "",
+      video: "",
+    },
+
+    media: [],
+  },
+
+  {
+    id: "aliveworld",
+    title: "AliveWorld",
+    platform: "PC",
+    tech: ["Unity", "C#", "Git"],
+    short:
+      "Projeto em Unity focado em simulação com agentes, jobs e comportamentos de AI.",
+    thumb: "media/aliveworld.jpg",
+
+    whatIs:
+      "AliveWorld é um projeto em Unity focado em simulação: agentes com tarefas, prioridades e comportamento emergente (estilo colony sim).",
+
+    workedOn: [
+      "Sistema de jobs/tickets e execução de tarefas por agentes",
+      "Estrutura modular para AI / tomada de decisão",
+    ],
+
+    links: {
+      github: "https://github.com/MarcoRodrigues2003/AliveWorld",
+      itch: "",
+      video: "",
+    },
+
     media: [],
   },
 ];
