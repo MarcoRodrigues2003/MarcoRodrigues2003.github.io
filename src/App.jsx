@@ -108,10 +108,7 @@ function Modal({ open, onClose, project }) {
               <div className="mediaPlaceholder">
                 <div className="mediaPlaceholder__box" />
                 <div className="mediaPlaceholder__text">
-                  Sem imagens/vídeos ainda.
-                  <br />
-                  Quando tiveres, eu ajudo-te a pôr aqui com drag & drop (super
-                  simples).
+                   No images/videos yet.
                 </div>
               </div>
             ) : (
