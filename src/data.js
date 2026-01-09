@@ -18,7 +18,7 @@ export const projects = [
     thumb: "media/toss-the-minder.jpg",
 
     whatIs:
-      "Toss The Minder é um jogo party onde os jogadores passam o peluche/telemóvel entre si enquanto a música toca. Quando a música pára, quem estiver com o peluche é eliminado.",
+      "Toss The Minder é um party game com vários mini-jogos onde os jogadores passam o peluche entre si enquanto a música toca.",
 
     workedOn: [
       "Deteção de movimento (aceleração/giroscópio) e proteção contra falsos positivos",
