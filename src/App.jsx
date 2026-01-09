@@ -265,7 +265,7 @@ export default function App() {
                 <h1 className="section__title">Welcome!</h1>
 
                 <p className="para">
-                  Sou <strong>{profile.name}</strong>, {profile.title}.
+                  I am <strong>{profile.name}</strong>,a {profile.title}.
                 </p>
 
                 <p className="para">{profile.tagline}</p>
