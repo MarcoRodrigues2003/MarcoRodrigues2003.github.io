@@ -64,8 +64,7 @@ export const projects = [
     title: "ARCityPlayground",
     platform: "Mobile (AR)",
     tech: ["Unity", "C#", "AR", "MediaPipe", "Computer Vision", "Hand Tracking"],
-    short:
-      "Unity project focused on computer vision prototypes and interactive AR gameplay.",
+    short: "Proof-of-concept computer vision project evaluating real-time hand tracking and interactive input.",
     thumb: "media/arcityplayground.png",
 
     whatIs:
