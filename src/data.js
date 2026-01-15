@@ -111,7 +111,7 @@ export const projects = [
   ],
 
   links: {
-    github: "", // add repo link if/when you have it
+    github: "https://github.com/MarcoRodrigues2003/ArduinoMinesweeper",
     video: "",
     itch: "",
   },
