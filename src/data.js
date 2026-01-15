@@ -91,4 +91,33 @@ export const projects = [
       { type: "youtube", src: "https://www.youtube.com/embed/lnaBdVooe78" }
     ],
   },
+
+  {
+  id: "arduino-minesweeper",
+  title: "Arduino Minesweeper",
+  platform: "Hardware / Arduino",
+  tech: ["Arduino"],
+  short:
+    "Physical Minesweeper prototype using an 8×8 LED matrix and multiplexed inputs.",
+  thumb: "media/CityPlaygroundLogo.png",
+
+  whatIs:
+    "Arduino Minesweeper is a physical prototype of the classic Minesweeper game. The board is represented by an 8×8 WS2812B LED matrix, with player input read through multiplexers.",
+
+  workedOn: [
+    "Implemented core Minesweeper logic (mines, reveals, flags, win/lose states)",
+    "LED rendering and feedback effects using FastLED on a WS2812B 8×8 matrix",
+    "Multiplexer-based input scanning and debouncing for reliable cell selection",
+  ],
+
+  links: {
+    github: "", // add repo link if/when you have it
+    video: "",
+    itch: "",
+  },
+
+  media: [],
+},
+
+  
 ];
