@@ -99,7 +99,7 @@ export const projects = [
   tech: ["Arduino"],
   short:
     "Physical Minesweeper prototype using an 8×8 LED matrix and multiplexed inputs.",
-  thumb: "media/CityPlaygroundLogo.png",
+  thumb: "media/",
 
   whatIs:
     "Arduino Minesweeper is a physical prototype of the classic Minesweeper game. The board is represented by an 8×8 WS2812B LED matrix, with player input read through multiplexers.",
