@@ -61,17 +61,18 @@ export const projects = [
 
   {
     id: "arcityplayground",
-    title: "ARCityPlayground",
-    platform: "Mobile (AR)",
-    tech: ["Unity", "C#", "AR", "MediaPipe", "Computer Vision", "Hand Tracking"],
+    title: "CityPlayground",
+    platform: "PC",
+    tech: ["Unity", "C#", "MediaPipe", "Computer Vision", "Hand Tracking"],
     short: "Proof-of-concept computer vision project evaluating real-time hand tracking and interactive input.",
-    thumb: "media/arcityplayground.png",
+    thumb: "media/CityPlaygroundLogo.png",
 
     whatIs:
-      "ARCityPlayground is a Unity project where the player uses their hand to destroy a city in augmented reality.",
+      "CityPlayground is a Unity project where the player uses their hand to destroy a city",
 
     workedOn: [
       "Procedural generation system to create a randomized city (layout rules, distribution, spawning)",
+      "Integrated MediaPipe for real-time hand tracking input and interaction",
     ],
 
     links: {
