@@ -116,8 +116,9 @@ export const projects = [
     itch: "",
   },
 
-  media: [],
-},
+  media: [
+    { type: "youtube", src: "https://www.youtube.com/embed/JugwF56JSLQ" },
+  ],
 
-  
+  },
 ];
