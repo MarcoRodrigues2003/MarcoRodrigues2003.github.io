@@ -89,7 +89,7 @@ export const projects = [
 
     media: [
       {
-        type: "Video",
+        type: "youtube",
         src: "https://ismaipt-my.sharepoint.com/personal/a040976_ipmaia_pt/_layouts/15/embed.aspx?UniqueId=d8dc3a4f-261c-4e43-8864-56823efc90a6&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
       },
     ],
