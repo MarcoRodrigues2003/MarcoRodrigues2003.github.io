@@ -66,7 +66,7 @@ export const projects = [
   },
 
   {
-    id: "arcityplayground",
+    id: "cityplayground",
     title: "CityPlayground",
     platform: "PC",
     tech: ["Unity", "C#", "MediaPipe", "Computer Vision", "Hand Tracking"],
@@ -88,10 +88,7 @@ export const projects = [
     },
 
     media: [
-      {
-        type: "youtube",
-        src: "https://ismaipt-my.sharepoint.com/personal/a040976_ipmaia_pt/_layouts/15/embed.aspx?UniqueId=d8dc3a4f-261c-4e43-8864-56823efc90a6&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
-      },
+      { type: "youtube", src: "https://www.youtube.com/embed/lnaBdVooe78" }
     ],
   },
 ];
