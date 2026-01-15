@@ -56,7 +56,7 @@ export const projects = [
       video: "",
     },
 
-    media: [
+    media: [    
       { src: "media/aliveworld/House1.png", alt: "AliveWorld - House system (1)" },
       { src: "media/aliveworld/House2.png", alt: "AliveWorld - House system (2)" },
       { src: "media/aliveworld/NPC1.png", alt: "AliveWorld - NPC system (1)" },
@@ -87,6 +87,11 @@ export const projects = [
       video: "",
     },
 
-    media: [],
+    media: [
+      {
+        type: "Video",
+        src: "https://ismaipt-my.sharepoint.com/personal/a040976_ipmaia_pt/_layouts/15/embed.aspx?UniqueId=d8dc3a4f-261c-4e43-8864-56823efc90a6&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
+      },
+    ],
   },
 ];
