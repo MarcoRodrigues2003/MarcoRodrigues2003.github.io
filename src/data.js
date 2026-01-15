@@ -56,7 +56,13 @@ export const projects = [
       video: "",
     },
 
-    media: [],
+    media: [
+      { src: "media/aliveworld/House1.png", alt: "AliveWorld - House system (1)" },
+      { src: "media/aliveworld/House2.png", alt: "AliveWorld - House system (2)" },
+      { src: "media/aliveworld/NPC1.png", alt: "AliveWorld - NPC system (1)" },
+      { src: "media/aliveworld/NPC2.png", alt: "AliveWorld - NPC system (2)" },
+    ],
+
   },
 
   {
