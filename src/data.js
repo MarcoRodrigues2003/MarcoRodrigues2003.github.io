@@ -14,7 +14,7 @@ export const projects = [
     platform: "Mobile",
     tech: ["Unity", "C#", "Mobile"],
     short: "Hot-potato style party game with motion detection and minigames.",
-    thumb: "media/toss-the-minder.jpg",
+    thumb: "media/MinderLogo.jpg",
 
     whatIs:
       "Toss The Minder is a party game with multiple minigames where players pass the plush around while music plays.",
