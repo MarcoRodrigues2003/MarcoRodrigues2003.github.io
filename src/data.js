@@ -8,6 +8,7 @@ export const profile = {
 };
 
 export const projects = [
+  /*
   {
     id: "toss-the-minder",
     title: "Toss The Minder",
@@ -33,6 +34,7 @@ export const projects = [
 
     media: [],
   },
+  */
 
   {
     id: "aliveworld",
@@ -96,7 +98,7 @@ export const projects = [
   id: "arduino-minesweeper",
   title: "Arduino Minesweeper",
   platform: "Hardware / Arduino",
-  tech: ["Arduino"],
+  tech: ["Arduino","C/C++"],
   short:
     "Physical Minesweeper prototype using an 8×8 LED matrix and multiplexed inputs.",
   thumb: "media/ArduinoLogo.png",
